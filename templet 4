@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Sonic</title>
+		<style type="text/css">
+			.a{
+				
+				width: 75%;
+				height: 400px;
+				float: right;
+				background-image: url('me10.jpg');
+				background-repeat: no-repeat;
+				background-size:  100%;
+				
+			}
+			.b{
+				float: left;
+				width: 25%;
+				height: 1000px;
+				background-color: Gray;
+			}
+			.c{
+				
+				width: 99%;
+				height: 80px;
+				background-color: DeepSkyBlue;
+			}
+			.d{
+				border: 2px solid Gray; 
+				width: 99%;
+				height: 50px;
+				background-color: DimGray;
+				margin: 0;
+				padding: 0;
+			}
+			.e{
+				border: 2px solid Gray;
+				background-color: DimGray;
+				width: 99%;
+				height: 50px;
+				margin: 0;
+				padding: 0;
+			}
+				
+			.f{
+				background-color: DimGray;
+				border: 2px solid Gray;
+				width: 99%;
+				height: 50px;
+				margin: 0;
+				padding: 0;
+			}
+			.g{
+				background-color: DimGray;
+				border: 2px solid Gray;
+				width: 99%;
+				height: 50px;
+				padding: 0;
+				margin: 0;
+			}
+			.i{
+				
+				background-color: DimGray;
+				border: 2px solid Gray;
+				width: 99%;
+				height: 50px;
+				margin: 0;
+				padding: 0;
+			}
+			.j{
+				text-decoration-color: blue;
+				color: DeepSkyBlue;
+
+			}
+			a:hover{
+				background-color: DeepSkyBlue;
+				color: blue;
+			}
+			.j{
+				color: DeepSkyBlue;
+				margin: 0 0 0 125px; 
+
+				text-decoration: none;
+
+			}
+			h1{
+				color:  DeepSkyBlue;
+			}
+			.k{
+				color:  white;
+			}
+			.l{
+				color:  white;
+			}
+			.m{
+				margin: 10px 50px 50px 350px;
+				color: white;
+				background-color: DeepSkyBlue;
+				width: 100px;
+				height: 35px;
+			}
+				.m:hover{
+					background-color: blue;
+					color:DeepSkyBlue ;
+				}
+			.n{
+				margin: 20px 0 0 125px;
+				padding: 0;
+				color: DeepSkyBlue;
+				text-decoration: none;
+			}
+				
+			.o{
+				margin: 20px 0 0 125px;
+				color: DeepSkyBlue;
+				text-decoration: none;
+			}
+			.p{
+				margin: 20px 0 0 125px;
+				color: DeepSkyBlue;
+				text-decoration: none;
+			}
+			.q{
+				margin: 20px 0 0 125px;
+				color: DeepSkyBlue;
+				text-decoration: none;
+			}
+			.r{
+				margin: 0 0 0 50px;
+				color: white;
+				font-size: 20px;
+			}
+			.s{
+				margin: 0 30px 0 50px;
+				color: white;
+				font-size: 14px;
+			}
+			.t{
+				margin: 100px 0 0 0;
+				color: white;
+			}
+			.u{
+				margin: 0 50px 0 0;
+				font-size: 20px;
+				color: DeepSkyBlue;
+				padding: 0;
+				
+				
+			}
+			.v{
+				text-align: center;
+				line-height: 30px;
+				
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="a">
+			<h1 class="t">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Services</h1>
+			<p class="l">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build your future we privid best soloution for your compney</p>
+			<p class="k">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Make your website now </p>
+			<input class="m" type="submit" name="" value="Download">
+
+		</div>
+		<div class="b">
+				<br>
+				<br>
+				<br>
+				<div class="c">
+					<p class="r">SunSprinkel</p> <br> 
+					<p class="s">Softwere House</p>
+					
+				</div>
+				<br>
+				<br>
+				<br>
+				<div class="d">
+					<p><a class="j" href="#">Home</a></p>
+				</div>
+				<div class="e">
+					<p><a class="n" href="#">About</a></p>
+				</div>
+				<div class="f">
+					<p><a class="o" href="#">Services</a> </p>
+				</div>
+				<div class="g">
+					<p><a class="p" href="#">Portfelo</a> </p>
+				</div>
+				<div class="i">
+					<p><a class="q" href="#">Contact</a> </p>
+				</div>
+
+
+
+		</div>
+		<div class="v">
+		
+		
+
+		<p class="u">Welcome to SunSprinkel</p>
+		<p > Our gool is to prived to best softwere to you because whiteout your sport its not posible for us <a href="yes"> Our Gools</a><br>We are hopoe you like our <a href="yes">Services</a> thanks for your copration </p>
+			
+		
+		</div>
+
+
+	</body>
+</html>
