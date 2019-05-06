@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+
+		<title>Megascopic</title>
+		<style type="text/css">
+			body{
+				background-image: url('me19.jpg');
+				background-size: 100%;
+			}
+			.a{
+				margin: 0;
+				padding: 0;
+				float: left;
+				width: 87%;
+				height: 50px;
+				border: 2px soild red;
+				background-color: white;
+			}
+			.b{
+				text-decoration: none;
+				list-style: none;
+				display: inline-block;
+				padding: 0;
+				margin: 0;
+				float: right;
+
+			}
+				.b li{
+					float: right;
+				}
+					.b li a{
+						padding: 25px 5px;
+						margin: 0 30px 0 10px;
+						letter-spacing: 1px;
+						float: right;
+						display: inline-block;
+						position: relative;
+						font-weight: 200px;
+						line-height: 1px;
+						text-decoration: none;
+					}
+					li:hover a{
+						color: DarkRed;
+					}
+			.c{
+				margin: 0px 0 0 5px;
+				padding: 0;
+				color: DarkRed;
+				list-style: none;
+			}
+			.d{
+				margin: 20px 0 0 170px;
+				border: 2px solid DarkRed;
+				color: white;
+				background-color: DarkRed; 
+				width: 120px;
+				height: 40px;
+			}
+			.e{
+				font-size: 55px;
+				color: white;
+				margin-bottom: 0;
+				margin-top: 0;
+				margin: 170px 0 0 170px;
+				font-family: arial-bold;
+			}		
+			.g{
+				border: 2px solid white;
+				height: 20px;
+
+			}
+			.f{
+				font-size: 20px;
+				color: white;
+				margin: 170px 0 0 170px;
+				margin-bottom: 0;
+				margin-top: 0;
+				font-family: arial-bold;
+			}
+			.i{
+				width: 20px;
+				height: 20px;
+				float: right;
+				margin: 20px 20px 0px 5px;
+			}
+
+				
+			.h{
+				width: 13%;
+				float: right;
+				
+				border: 2px soild red;
+				height: 50px;
+				
+				background-color: white; 
+				
+			}
+				
+		</style>
+	</head>
+	<body>
+		<div class="a">
+			<ul class="b">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">FAQ's</a></li>
+				<li><a href="#">Contact</a></li>
+						
+			</ul>	
+				
+			
+				<h1 class="c">Megascopic</h1>
+			
+			
+		</div>
+		<div class="h">
+				<img class="i" src="me22.png">
+				<img class="i" src="me21.png">
+				<img class="i" src="me23.png">	
+		</div>
+		
+		<div class="g">
+			<p class="e">We are Commit to<br> your Success</p>
+			<p class="f">We're here to offer the best support, to help <br> you troubleshoot any business issues.</p>	
+			<button class="d">Contact US</button>
+
+
+		</div>
+	</body>
+</html>
