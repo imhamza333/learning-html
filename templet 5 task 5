@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>HTML</title>
+		<style type="text/css">
+			body{
+				background-image: url('me8.jpg');
+				background-size: 100%;
+			}
+			.a{
+				border: 2px solid black;
+				width: 100%;
+				line-height: 5px;
+				background-color: white;
+			}
+			
+			.b{
+				padding: 0;
+				margin: 0;
+				display: inline-block;
+				float: right;
+				text-decoration: none;
+			}
+			.b li{
+				float: right;
+				list-style: none;
+			}
+			    .b li a{
+			    	margin: 0;
+			    	padding: 30px 20px;
+			    	letter-spacing: 1px;
+			    	text-decoration: none;
+			    	float: right;
+			    	display: inline-block;
+			    	position: relative;
+			    	font-weight: 200px;
+			    	line-height: 1;
+			    }
+			li:hover a{
+			    	
+			    	color: red;
+			 }
+			.c{
+				width: 150px;
+				height: 60px;
+				margin: 0;
+				padding: 0;
+			}
+			.d{
+				width: 100%;
+				
+				line-height: 100px;
+			}
+			.e{
+				width: 120px;
+				height: 40px;
+				margin: 0px 0 0 500px;
+				background-color: Salmon;
+				border: 1px solid Salmon;
+				border-radius: 5px;
+				padding: 0;
+				cursor: pointer;
+			}
+			.f{
+				width: 120px;
+				height: 40px;
+				background-color: MediumSpringGreen;
+				border: 1px solid MediumSpringGreen;
+				border-radius: 5px;
+				padding: 0;
+				margin: 0 0 0 20px;
+				cursor: pointer;
+			}
+			.g{
+				color:  white;
+				text-align: center;
+				font-size: 60px;
+				font-family: arial;
+				margin-bottom: 0;
+
+				
+				
+
+			}
+			.h{
+				color: white;
+				margin: 150px 0 0 100px;
+				font-size: 15px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="a">
+			<img class="c" src="me3.png">
+			<ul class="b">
+				<li><a  href="#">Home</a></li>
+				<li><a  href="#">Focus</a></li>
+				<li><a  href="#">Work</a></li>
+				<li><a  href="#">About</a></li>
+				<li><a  href="#">Team</a></li>
+				<li><a  href="#">Pricing</a></li>
+				<li><a  href="#">Features</a></li>
+				<li><a  href="#">Products</a></li>
+				<li><a  href="#">Contact</a></li>
+				<li><a  href="#">Other</a></li>
+
+			</ul>
+
+		</div>
+		<p class="g"><b>AFFORDABLE QUALITY SERVICES FOR SMALL BUSINESSES</b></p>
+		<div class="d">
+			
+			<button class="e">Our Work</button>
+			<button class="f">Our Package</button>
+
+			
+
+			<!-- <p class="h">PRICE OF PACKAGE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUALITY PRODUCT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SATISFICATION GRANTED</p>  -->
+			
+			
+
+			
+		</div>
+		<pre class="h"><img src="me3.png" width="15px" height="10px"> PRICE OF PACKAGES                                    <img src="me3.png" width="15px" height="10px"> PRICE QUALITY                                          <img src="me3.png" width="15px" height="10px"> SATICFACTION GRANTED</pre>
+	
+	</body>
+</html>
