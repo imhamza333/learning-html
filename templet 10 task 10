@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lin Photo</title>
+		<style type="text/css">
+			.a{
+				width: 100%;
+				height: 180px;
+				background-image: url('11.jpg');
+				background-size: 100%;
+				padding: 0;
+			}
+			.b{
+				padding: 0;
+				margin: 0px 0 0 20px;
+				color: white;
+
+			}
+			.c{
+				font-size: 45px;
+				padding: 0;
+				margin: -9px 0 0 20px;
+				color: white;
+			}
+			.d{
+				margin: 60px 0 0 980px;
+				padding: 0;
+				background-color: black;
+				border: 2px solid red;
+				color: white;
+				height: 25px;
+			}
+			.e{
+				width: 70px;
+				height: 30px;
+				background-color: black;
+				color: white;
+				border: 2px solid red;
+				border-radius: 5px;
+			}
+			.f{
+				
+				width: 100%;
+				height: 40px;
+				text-decoration: none;
+				
+				float: right;
+				padding: 0;
+				margin: 0px 0px 0 10px;
+				background-color: black;
+
+			}
+				.f li {
+				float: left;
+				list-style: none;
+				padding: 0;
+				margin: 0px 0 0 0px;
+			} 
+				.f li a{
+				text-decoration: none;
+				color: white;
+				padding: 0px 0px 0px 0px;
+				margin: -5px 0 0 150px;
+				float: right;
+			}
+				li:hover a{
+				color: FireBrick;
+				border-radius: 5px;
+				
+				
+			}
+			.g{
+				
+				width: 25%;
+				height: 550px;
+				float: left;
+				background-color: DimGray;
+			}
+			.h{
+				
+				width: 51%;
+				height: 550px;
+				float: left;
+				background-color: DimGray;
+
+			}
+			.i{
+				
+				height: 550px;
+				width: 24%;
+				float: right;
+				background-color: DimGray;
+			}
+			.hpic {
+				width: 100%;
+				height: 250px;
+				margin: 40px 0 0 0;
+				border: 2px solid white;
+				
+			}
+			.hading{
+				font-size: 20px;
+				color: gold;
+			}
+			.heading2{
+				font-size: 20px;
+				color: gold;
+				margin: 50px 0 0 30px;
+			}
+			.heading3{
+				margin: 0 0 0 25px;
+			}
+			.heading4{
+				margin: 0 0 0 25px;	
+			}
+			.heading5{
+				margin: 0 0 0 25px;	
+			}
+			.button{
+				width: 100px;
+				height: 30px;
+				background-color: black;
+				color: white;
+				border-radius: 5px;
+				border: 1px black;
+				margin: 30px 0 0 200px;
+			}
+			.heading6{
+				font-size: 20px;
+				color:gold;
+				margin: 35px 0 0 25px;
+			}
+			.img{
+				width: 30px;
+				height: 30px;
+				margin: 10px 0 0 15px; 
+			}
+			.writing{
+				margin: -30px 0 0 60px;
+			}
+			.last{
+				width: 100%;
+				height: 400px;
+				
+				float: left;
+				background-color: DimGray;
+			}
+			
+			.last1{
+				width: 23%;
+				height: 300px;
+				
+				float: right;
+			}
+			
+			.last2{
+				width: 25%;
+				
+				height: 300px;
+				float: left;
+				
+			}
+			.last3{
+				width: 25%;
+				
+				height: 300px;
+				float: left;
+			}
+			.last4{
+				width: 25%;
+				
+				height: 300px;
+				float: left;
+			}
+			.img1{
+				width: 200px;
+				height: 200px;
+				margin: 10px 0 0 60px;
+				border: 2px solid white;
+			}
+			.img2{
+				width: 200px;
+				height: 200px;
+				margin: 10px 0 0 60px;
+				border: 2px solid white;
+			}
+			.img3{
+				width: 200px;
+				height: 200px;
+				margin: 10px 0 0 60px;
+				border: 2px solid white;
+			}
+			.img4{
+				width: 200px;
+				height: 200px;
+				margin: 10px 0 0 60px;
+				border: 2px solid white;
+			}
+			.bottom{
+				width: 100%;
+				height: 100px;
+				
+				background-color: Gray;
+				float: left;
+			}
+			.img5{
+				width: 40px;
+				height: 40px;
+				margin: -15px 0 0 40px;
+				float: right;
+			}
+			.bottom1{
+				color: black;
+				margin: 15px 0 0 270px;
+				padding: 0;
+				float: left;
+				height: 80px;
+
+
+			}
+				.bottom li{
+					margin: 0px 0 0 0px;
+					padding: 0;
+				}
+				.bottom li a{
+					color: black;
+					padding: 0;
+					margin: 0px 0 0 50px;
+					border-right: 1px solid white;
+					padding: 10px;
+
+				}
+					li:hover a{
+						color: FireBrick;
+					}
+				.img6{
+					width: 40px;
+				    height: 40px;
+				    margin: -15px 0 0 0px;
+				    padding: 0;
+				    float: left;
+
+				    
+				}
+				.heading7{
+					margin: -30px 0 0 530px;
+					float: left;
+				}
+				.bottom0{
+					width: 100%;
+					height: 50px;
+					
+				}
+		</style>
+	</head>	
+	<body>
+
+		<div class="a">
+			<P class="b" >Free Stock Photo</P>
+			<P class="c" >Lin Photo</P>
+			<input class="d" type="forum" name="" placeholder="Enter keyword here">
+			<input class="e" type="submit" name="" value="Search">
+			
+
+		</div>
+		<div class="f">
+			<ul>
+				
+				<li><a class="" href="#">Contact</a></li>
+				<li><a class="" href="#">About</a></li>
+				<li><a class="" href="#">Form</a></li>
+				<li><a class="" href="#">Blog</a></li>
+				<li><a class="" href="#">Gallery</a></li>
+				<li><a class="" href="#">Home</a></li> 
+			</ul>
+		</div>	
+		<div class="g">
+			<p class="heading2">Latest Blog Post</p>
+
+			<pre>    (18-10-1995)</pre>
+			<pre><a class="heading4"  href="#">photography champnship</a></pre>
+			<p class="heading4">photography champship held in istanbul a larg amoung of public particapted</p>
+			<br>
+
+			<pre>    (18-10-1995)</pre>
+			<pre><a class="heading3" href="#">photography champnship</a></pre>
+			<p class="heading3">photography champship held in istanbul a larg amoung of public particapted</p>
+			<br>
+
+			<pre>     18-10-1995)</pre>
+			<pre>     <a  href="#">photography champnship</a></pre>
+			<p class="heading5">photography champship held in istanbul a larg amoung of public particapted</p>
+			<button class="button">Reed all</button>
+		</div>
+		<div class="h">
+			<img class="hpic" src="me16.jpeg">
+			<p class="hading">Wellcome to our photo site</p>
+			<p>this is a  link of <a href="#">our social site</a> if you need any type help <a href="#">click here</a>and for lates information and pics click on <a href="#">news feed</a> thank you</p>
+			<p>welcome to our social site here you uplod your pic and we proived you the market place with this you can shere it with world wide and public show intrest on it i they like then can buy it also in resanable amoutn thank you</p>
+
+		</div>
+		<div class="i">
+			<p class="heading6">Catagories</p>
+			 
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			 <img class="img" src="me33.jpg">  <p class="writing">Fire logo gallery</p>
+			
+		</div>
+		<div class="last">
+			<div class="last1">
+				<img class="img1" src="3.jpg">
+				<pre>       This pic is taken by someone 
+	i dont know his name but 
+	its a good pic <a href="#">more info</a> </pre>
+			
+			</div>
+			<div class="last2">
+				<img class="img2" src="2.jpg">
+				<pre>       This pic is taken by someone 
+	i dont know his name but 
+	its a good pic <a href="#">more info</a> </pre>
+			</div>
+			<div class="last3">
+				<img class="img3" src="6.jpg">
+				<pre>       This pic is taken by someone 
+	i dont know his name but 
+	its a good pic <a href="#">more info</a> </pre>
+			</div>
+			<div class="last4">
+				<img class="img4" src="7.jpg">
+				<pre>       This pic is taken by someone 
+	i dont know his name but 
+	its a good pic <a href="#">more info</a> </pre>
+				
+				
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="bottom0">
+				<ol class="bottom1">
+					<img class="img5" src="me34.jpg">
+				    <img class="img6" src="me34.jpg">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">photo</a></li>
+				</ol>
+			</div>
+            <pre class="heading7">Copyrite &copy 2019 by <a href="#">M HAMZA</a> </pre>
+		</div>
+	</body>
+</html>
