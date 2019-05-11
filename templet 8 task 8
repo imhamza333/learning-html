@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Online Home</title>
+		<style type="text/css">
+			.a{
+				text-decoration: none;
+				display: inline-block;
+				list-style: none;
+				padding: 0;
+				margin: 0 45px 0 0 ;
+				float: right;
+
+				}
+			<!-- .a li{
+					float: right;
+					padding: 0px 0 0 0;
+					margin:  40px 0 0 140px;
+				}
+				.a li a{
+					text-decoration: none;
+					padding: 0;
+					margin: 0 0 0 0;
+					float: left;
+				}
+				
+				
+
+			.b{
+				border: 2px solid black;
+				width: 100%;
+				
+				height: 400px;
+				background-image: url('me15.jpg');
+				background-size: 100%;
+				background-repeat: no-repeat;
+			}	
+			.c{
+				border: 2px solid black;
+				width: 100%;
+				background-color: LightSlateGray;
+				height: 100px;
+				
+
+			}
+			
+			.f{
+				
+				width: 30%;
+				height: 400px;
+				
+				float: left;
+				background-color: LightSlateGray;
+			}
+			.g{
+				
+				width: 70%;
+				background-color: LightSlateGray;
+				height: 400px;
+				float: right;
+			}
+			.i{
+				font-size: 18px;
+				margin: 0px 0 0 20px;
+			}
+			.j{
+
+				padding: 0;
+				margin: -480px 0 0 0;
+			}	
+			.h{
+				color: white;
+				text-decoration: white;
+				text-decoration-color: white;
+
+			}
+			.k{
+				color: white;
+				margin: 50px 0px 0px 270px;
+			}
+			.l{
+				font-size: 18px;
+				color: white;
+				margin: 20px 0 0 20px;
+			}
+			.m{
+				width: 120px;
+				height: 120px;
+				margin: 30px 0 0 30px;
+
+			}
+			.n{
+				color: blue;
+				margin: -115px 0 0 170px;
+			}
+			.o{
+				color: white;
+				width: 40%;
+				margin: 30px 0 0 170px;
+			}
+			.p{
+				margin: 15px 0 0 440px;
+				color: white;
+			}
+			.q{
+				width: 120px;
+				height: 120px;
+				margin: 30px 0 0 30px;
+			}
+			.r{
+				color: blue;
+				margin: -115px 0 0 170px
+			}
+			.s{
+				color: white;
+				width: 40%;
+				margin: 30px 0 0 170px;
+			}
+			.v{
+				margin: 15px 0 0 440px;
+				color:  white;
+			}
+			.w{
+				width: 100%;
+				height: 45px;
+				
+				
+				margin:  0;
+				text-align: center;
+				float: left;
+				color: white;
+				background-color: black;
+
+			}
+			.x{
+				margin: 10px 0 0 0;
+			}
+			.menu{
+				border:1px solid white;
+				width: 17%;
+				height: 98px;
+				float: right;
+
+			}
+			.heading{
+				margin: 30px 0 0 70px;
+				padding: 0;
+				text-decoration: none;
+			}
+			.menu1{
+				border:1px solid white;
+				width: 17%;
+				height: 98px;
+				float: left;
+				color: white;
+			}
+			.heading1{
+				margin: 30px 0 0 70px;
+				padding: 0;
+				text-decoration: none;
+			}
+			.menu2{
+				border:1px solid white;
+				width: 16%;
+				height: 98px;
+				float: left;
+				background-color: LightGray;
+			}
+			.heading2{
+				margin: 30px 0 0 70px;
+				padding: 0;
+				text-decoration: none;
+			}
+			.menu3{
+				border:1px solid white;
+				width: 15%;
+				height: 98px;
+				float: left;
+			}
+			.heading3{
+				margin: 30px 0 0 70px;
+				padding: 0;
+				text-decoration: none;
+			}
+			.menu4{
+				border:1px solid white;
+				width: 17%;
+				height: 98px;
+				float: left;
+			}
+			.heading4{
+				margin: 30px 0 0 70px;
+				padding: 0;
+				text-decoration: none;
+			}
+			.menu5{
+				border:1px solid white;
+				width: 17%;
+				height: 98px;
+				float: left;
+				text-decoration: none;
+			}
+			.heading5{
+				margin: 30px 0 0 70px;
+				padding: 0;
+				text-decoration: none;
+			}
+			 p:hover a{
+				background-color:  LightGray;
+				width: 50px;
+				height: 50px;
+			}
+			.center{
+				height: 70px;
+				width: 100%;
+				border: 2px solid black;
+				border-right: 5px solid black;
+				border-top: 0px solid white;
+				border-bottom: 0px solid white;
+				}
+				.center1{
+					
+					height: 100px
+					width:100%;
+					color: GhostWhite;
+
+				}
+				.d{
+					font-size: 30px;
+					color: red;
+					margin: 0 0 0 900px;
+
+				}
+				.e{
+					font-size: 15px;
+					color: black;
+					margin: -5px 0 0 980px;
+				}
+		</style>
+	
+	</head>
+	<body>
+		<div class="c" >
+			<div class="menu">
+				<p class="heading"><a href="#">About</a></p>
+			</div>
+			<div class="menu1">
+				<p class="heading1"><a href="#">Home</a></p>
+			</div>
+			<div class="menu2">
+				<p class="heading2"><a href="#">Buildings</a></p>
+			</div>
+			<div class="menu3">
+				<p class="heading3"><a href="#">Buying</a></p>
+			</div>
+			<div class="menu4">
+				<p class="heading4"><a href="#">Solution</a></p>
+			</div>
+			<div class="menu5">
+				<p class="heading5"><a href="#">Contact</a></p>
+			</div>
+
+
+
+			<!--<ul class="a">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Buldings</a></li>
+				<li><a href="#">Buying</a></li>
+				<li><a href="#">Solutions</a></li>
+				<li><a href="#">Countact</a></li>
+			</ul>-->		
+		</div>
+		<div class="b">
+			<div class="center1">
+				<p >Atrativ Home</p>
+				<p >Perchase Offer</p>
+			</div>
+			<div class="center1">
+				<p >Atrativ Home</p>
+				<p >Perchase Offer</p>
+			</div>
+			<div class="center1">
+				<p >Atrativ Home</p>
+				<p >Perchase Offer</p>
+			</div>
+			<div class="center">	
+
+				<p class="d">Atrativ Home</p>
+				<p class="e">Perchase Offer</p>
+			</div>
+		</div>
+		<div class="f">
+			<p class="i">News List</p>
+			<ul class="h">
+					<li><a href="#">NEWS FEED LATEST NEWS</a></li>
+					<br>
+					<li><a href="#">NEWS FEED LATEST NEWS</a></li>
+					<br>
+					<li><a href="#">NEWS FEED LATEST NEWS</a></li>
+					<br>
+					<li><a href="#">NEWS FEED LATEST NEWS</a></li>
+					<br>
+					<li><a href="#">NEWS FEED LATEST NEWS</a></li>
+					<br>
+					<li><a href="#">NEWS FEED LATEST NEWS</a></li>
+					<br>
+					<li><a href="#">NEWS FEED LATEST NEWS</a></li>
+					<br>
+					<li><a href="#">NEWS FEED LATEST NEWS</a></li>
+			</ul>	
+			<p><a class="k" href="#">reed more</a></p>
+			
+			
+			
+	   </div>
+		<div class="g">
+			<p class="l">Solution Showcase</p>
+			<img class="m" src="me27.jpg">
+			<p class="n">Do you want to by a castle ?if yes so here is castle</p>
+			<p class="o">This is a histrical castle this castle was bulit by some one i dont remamber his name but some one built it centurys ago if  </p>
+			<p class="p"><a href="#">read more</a></p>
+
+			<img class="q" src="me31.jpg">
+			<p class="r">If you dont like preves castle ok we another one </p>
+			<p class="s">This castle in hungry and belong to the goverment but now goverment want to sell it</p>
+			<p class="v"><a href="#">read more</a> </p>
+		</div>
+		<div class="w">
+			<p class="x">Atractive Home &copy 2019 | <a href="#">Privacy Policy</a></p>
+		</div>
+	</body>
+</html>
