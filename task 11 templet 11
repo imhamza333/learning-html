@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ESTATE PLUS</title>
+		<style type="text/css">
+			.log{
+				width: 25%;
+				height: 40px;
+				padding: 0;
+				margin:0;
+				background-color: black;
+				float: right;
+			}
+			.img{
+				width: 20px;
+				height: 20px;
+				margin: 8px 0 0 60px;
+			}
+			.mail{
+				margin: -22px 0 0 85px;
+				color: white;
+			}
+			.img1{
+				width: 20px;
+				height: 20px;
+				margin: 0px 0 0 160px;
+			}
+			.phone{
+				color: white;
+				margin: -17px 0 0 270px;
+			}
+			.img2{
+				width: 20px;
+				height: 20px;
+				margin: 10px 0 0 270px;
+			}
+			.log1{
+				width: 50%;
+				height: 40px;
+				padding: 0;
+				margin:0;
+				background-color: black;
+				float: left;
+
+			}
+			.login{
+				color: white;
+				margin:-22px 0 0 300px;
+			}
+			.flag{
+				width: 20px;
+				height: 20px;
+				margin: 10px 0 0 100px;
+			}
+			.log2{
+				width: 25%;
+				height: 40px;
+				padding: 0;
+				margin:0;
+				background-color: black;
+				float: left;
+
+			}
+			.flag1{
+				width: 20px;
+				height: 20px;
+				margin: 0 0 0 5px;
+			}
+			.flag2{
+				width: 20px;
+				height: 20px;
+				margin: 0 0 0 5px;
+			}
+			.logo{
+				width: 50%;
+				height: 100px;
+				
+				float: right;
+			}
+			.logo1{
+				width: 49%;
+				height: 100px;
+					
+				float: left;
+			}
+			.imglogo{
+				width: 100px;
+				height: 100px;
+				margin: 0 0 0 40px;
+			}
+			.imglogo1{
+				font-size: 26px;
+				margin: -70px 0 0 130px;
+			}
+			.imglogo2{
+				font-size: 12px;
+				margin: -5px 0 0 130px;
+			}
+			.img3{
+				width: 30px;
+				height:30px;
+				margin: 25px 0 0 200px;
+			}
+			.img4{
+				width: 30px;
+				height:30px;
+				margin: 25px 0 0 0px;
+			}
+			.img5{
+				width: 30px;
+				height:30px;
+				margin: 25px 0 0 0px;
+			}
+			.img6{
+				width: 30px;
+				height:30px;
+				margin: 25px 0 0 0px;
+			}
+			.img7{
+				width: 30px;
+				height:30px;
+				margin: 25px 0 0 0px;
+			}
+			.img8{
+				width: 30px;
+				height:30px;
+				margin: 25px 0 0 0px;
+			}
+			.img9{
+				width: 30px;
+				height:30px;
+				margin: 25px 0 0 0px;
+			}
+			.menu{
+				width: 100%;
+				height: 60px;
+				
+				float: left;
+			}
+			.select1{
+				float: left;
+				margin: 0 0 0 10px;
+				text-decoration: none;
+				list-style: none;
+				display: inline-block;
+				padding: 0;
+			}
+				.select1 li {
+					float: left;
+					padding: 0;
+					margin: 20px 0 10px 20px;
+				}
+				.select1 li a{
+					text-decoration: none;
+					color: black;
+				}
+				li:hover a{
+					color: DeepSkyBlue;
+				}
+			.option{
+				border: solid white;
+				}
+			.center{
+					width: 100%;
+					height: 430px;
+					float: left;
+					background-image: url('me58.jpg');
+					background-repeat: no-repeat;
+					background-size: 100%;
+					
+				}
+				
+				
+			.center1{
+					width: 50%;
+					height: 400px;
+					float: left;
+					margin: 25px 0 0 50px;
+					background-image: url('me59.jpg');
+					background-size: 100%;
+					background-repeat: no-repeat;
+				}
+			.center2{
+				width: 35%;
+				height: 400px;
+				float: right;
+				margin: 30px 100px 0px 0px;
+				background-color: DeepSkyBlue;
+			}
+			.select2{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 30px;
+			}
+			.heading{
+				color: white;
+				margin: 20px 0 0 30px; 
+			}
+			.select3{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 30px;
+			}
+			.heading1{
+				color: white;
+				margin: 20px 0 0 30px; 
+			}
+			.select4{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 30px;
+			}
+			.heading2{
+				color: white;
+				margin: 20px 0 0 30px; 
+			}
+			.select5{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 30px;
+			}
+			.heading3{
+				color: white;
+				margin: 20px 0 0 30px; 
+			}
+			.select6{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 260px;
+			}
+			.heading4{
+				color: white;
+				margin: -250px 0 0 260px; 
+			}
+			.select7{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 260px;
+			}
+			.heading5{
+				color: white;
+				margin: 20px 0 0 260px; 
+			}
+			.select8{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 260px;
+			}
+			.heading6{
+				color: white;
+				margin: 20px 0 0 260px; 
+			}
+			.select9{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 260px;
+			}
+			.heading7{
+				color: white;
+				margin: 20px 0 0 260px; 
+			}
+			.select10{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 30px;
+			}
+			.heading8{
+				color: white;
+				margin: 20px 0 0 30px; 
+			}
+			.select11{
+				width: 150px;
+				height: 30px;
+				margin: 0px 0 0 260px;
+			}
+			.heading9{
+				color: white;
+				margin: -50px 0 0 260px; 
+			}
+			.searchbar{
+				width: 320px;
+				height: 30px;
+				background-color: black;
+				border: 2px solid black;
+				margin: 30px 0 0 60px;
+			}
+			.mid{
+				width: 100%;
+				height: 50px;
+				
+				float: left;
+			}
+			.mid1{
+				font-size: 20px;
+				margin: 10px 0 0 450px;
+			}
+			.mid2{
+				font-size: 12px;
+				margin: 4px 0 0 470px;
+				color: Silver;
+			}
+			.aftermid{
+				width: 100%;
+				height: 300px;
+				
+				float: left;
+			}
+			.aftermid1{
+				width: 20%;
+				height: 250px;
+				
+				float: right;
+				margin: 20px 70px 0 0;
+			}
+			.aftermid2{
+				width: 20%;
+				height: 250px;
+				
+				float: right;
+				margin: 20px 30px 0 0px;
+			}
+			.aftermid3{
+				width: 20%;
+				height: 250px;
+				
+				float: right;
+				margin: 20px 30px 0 0; 
+			}
+			.aftermid4{
+				width: 20%;
+				height: 250px;
+				
+				margin: 20px 0 0 80px;
+			}
+			.midimg{
+				width: 100px;
+				height: 100px;
+				margin: 20px 0 0 70px;
+			}
+			.imgp{
+				font-size:  17px;
+				margin: 10px 0 0 30px;
+			}
+			.imgp1{
+				
+				text-align: center;
+			}
+			.midimg1{
+				width: 120px;
+				height: 100px;
+				margin: 20px 0 0 70px;
+			}
+			.imgp2{
+				font-size: 17px;
+				margin: 10px 0 0 30px;
+			}
+			.imgp3{
+				text-align: center;
+			}
+			.midimg2{
+				width: 120px;
+				height: 100px;
+				margin: 20px 0 0 70px;
+			}
+			.imgp4{
+				font-size: 17px;
+				margin: 10px 0 0 70px;
+			}
+			.imgp5{
+				text-align: center;
+			}
+			.midimg3{
+				width: 120px;
+				height: 100px;
+				margin: 20px 0 0 60px;
+			}
+			.imgp6{
+				font-size: 17px;
+				margin: 10px 0 0 70px;
+			}
+			.imgp7{
+				text-align: center;	
+			}
+			.button{
+				background-color: OrangeRed;
+				border: 2px solid OrangeRed;
+				border-radius: 2px;
+				width: 150px;
+				height: 25px;
+				margin: 0px 0 0 550px;
+				color: white;
+			}
+			.end{ 
+				width: 100%;
+				height: 100px; 
+				
+				float: left; 
+			}
+			.endp{
+				font-size: 20px;
+				margin: 60px 0 0 500px;
+
+			}
+			.endp1{
+				font-size: 12px;
+				color: Silver;
+				margin: 0 0 0 513px;
+			}
+			.last{
+				width: 100%;
+				height: 250px;
+				
+				float: left;
+			}
+			.pic{
+				width: 20%;
+				height: 200px;
+				
+				float: left;
+				margin: 20px 0 0 45px;
+
+			}
+			.pic1{
+				width: 20%;
+				height: 200px;
+				
+				float: left;
+				margin: 20px 0 0 50px;
+			}
+			.pic2{
+				width: 20%;
+				height: 200px;
+				
+				float: left;
+				margin: 20px 0 0 45px;
+			}
+			.pic3{
+				width: 20%;
+				height: 200px;
+				
+				float: left;
+				margin: 20px 0 0 45px;
+
+			}
+			.hous{
+				width: 250px;
+				height: 150px;
+			}
+			.hous1{
+				width: 250px;
+				height: 150px;
+			}
+			.hous2{
+				width: 250px;
+				height: 150px;
+			}
+			.hous3{
+				width: 250px;
+				height: 150px;
+			}
+			.housp{
+				color: OrangeRed;
+				margin: 2px 0 0 5px;
+			}
+			.housp1{
+				color: Silver;
+				margin: -5px 0 0 5px;
+			}
+
+		</style>
+			
+	</head>
+	<body>
+		<div class="log">
+			<img class="flag" src="me46.png">
+			<img class="flag1" src="me47.png">
+			<img class="flag2" src="me48.png">
+			
+			
+			
+		</div>
+		<div class="log1">
+			<img class="img" src="me42.jpg">
+			<img class="img1" src="me43.png">
+			<p class="mail">realestate@gmail.com</p>
+			<p class="phone"> +92 32 35 33333 </p>
+		</div>
+		<div class="log2">
+			<img class="img2" src="me45.jpg">
+			<p class="login">login/Register</p>
+		</div>
+		<div class="logo">
+			<img class="img3" src="me56.jpg">
+			<img class="img4" src="me57.jpg">
+			<img class="img5" src="me51.png">
+			<img class="img6" src="me52.jpg">
+			<img class="img7" src="me53.png">
+			<img class="img8" src="me54.jpg">
+			<img class="img9" src="me55.jpg">
+			
+		</div>
+		<div class="logo1">
+			<img class="imglogo" src="me49.jpg">
+			<p class="imglogo1">ESTATE PLUS</p>
+			<p class="imglogo2">AGENT & REAL ESTATE INC.</p>
+		</div>
+		<div class="menu">
+			<ul class="select1">
+				<li><a href="#">HOME</a></li>
+				<li><select class="option">
+					<option>FETURE</option>
+					<option>RENT HOUSE</option>
+					<option>BUY HOUSE</option>
+				</select></li>
+				<li><select class="option">
+					<option>ADVANCE SEARCH</option>
+					<option>RENT HOUSE</option>
+					<option>BUY HOUSE</option>
+				</select></li>
+				<li><select class="option">
+					<option>POPULAR PROPERTY</option>
+					<option>RENT HOUSE</option>
+					<option>BUY HOUSE</option>
+				</select></li>
+				<li><select class="option">
+					<option>ELIMENTS</option>
+					<option>RENT HOUSE</option>
+					<option>BUY HOUSE</option>
+				</select></li>
+			    <li><a href="#">LIST A PROPERTY</a></li>
+		   </ul>
+	   </div>
+	   <div class="center">
+	   		<div class="center1">
+	   			
+	   		</div>
+	   		<div class="center2">
+	   			<p class="heading">Country</p>
+	   			<select  class="select2" >
+	   				<option>UNITED STATES</option>
+	   				<option>UNITED Kingdam</option>
+	   				<option>UNITED ARAB</option>
+	   			</select>
+	   			<p class="heading1">Stutas</p>
+	   			<select  class="select3" >
+	   				<option>ON RENT</option>
+	   				<option>ON SALE</option>
+	   				<option>Sold</option>
+	   			</select>
+	   			<p class="heading2">Badroom</p>
+	   			<select  class="select4" >
+	   				<option>1</option>
+	   				<option>2</option>
+	   				<option>3</option>
+	   			</select>
+	   			<p class="heading3">Min Price</p>
+	   			<select  class="select5" >
+	   				<option>200 $</option>
+	   				<option>300 $ </option>
+	   				<option>400 $ </option>
+	   			</select>
+	   			<p class="heading4">Condition</p>
+	   			<select  class="select6" >
+	   				<option>USED</option>
+	   				<option>NEW</option>
+	   				<option>GOOD</option>
+	   			</select>
+	   			<p class="heading5">Location</p>
+	   			<select  class="select7" >
+	   				<option>Lahore</option>
+	   				<option>Miami</option>
+	   				<option>Istanbul</option>
+	   			</select>
+	   			<p class="heading6">Type</p>
+	   			<select  class="select8" >
+	   				<option>APARTMENT</option>
+	   				<option>BANGLOW</option>
+	   				<option>MENSHION</option>
+	   			</select>
+	   			<p class="heading7">Storys</p>
+	   			<select  class="select9" >
+	   				<option>SINGLE</option>
+	   				<option>DOUBLE</option>
+	   				<option>TRIPLE</option>
+	   			</select>
+	   			<p class="heading8">Max Price</p>
+	   			<select  class="select10" >
+	   				<option>1000 $</option>
+	   				<option>2000 $</option>
+	   				<option>3000 $</option>
+	   			</select>
+	   			<p class="heading9">From the </p>
+	   			<select  class="select11" >
+	   				<option>AGENT</option>
+	   				<option>OWNER</option>
+	   				<option>SEELER</option>
+	   			</select>
+	   			<input class="searchbar" type="search" name="" placeholder="SEARCH PROPERTY">
+	   			
+	   		</div>
+	  </div>
+	  <div class="mid">
+	   			<p class="mid1">TO ATTAIN YOUR DREAM HOME</p>
+	   			<P class="mid2" >YOU NEED TO DO VERY SIMPLE JUST JOIN US</P>
+	   			
+	  </div>
+	  <div class="aftermid"> 
+	  		<div class="aftermid1" >
+	  			<img class="midimg3" src="me64.jpg">
+	  			<P class="imgp6" >SELL HOUSE</P>
+	  			<P class="imgp7" >you can sell your house and make money and you can give your house on rent</P>
+	  			
+	  		</div>
+	  		<div class="aftermid2" >
+	  			<img class="midimg2" src="me63.jpg">
+	  			<P class="imgp4" >EASY TO USE</P>
+	  			<P class="imgp5" >its very easy to use just simple join usand enough</P>
+	  			
+	  		</div>
+	  		<div class="aftermid3" >
+	  			<img class="midimg1" src="me62.jpg">
+	  			<p class="imgp2">DETAL AGENT PANEL </p>
+	  			<p class="imgp3">Complet detal about agent and there office than you can contact tham </p>
+	  			
+	  		</div>
+	  		<div class="aftermid4" >
+	  			<img class="midimg" src="me61.jpg">
+	  			<p class="imgp" >LIST ON THE SAME DAY</p>
+	  			<p class="imgp1">list of houses they are on sell or on rent or sold or empty</p>
+	  			
+	  		</div>
+	  		<button class="button">VIEW ALL SERVICES</button>
+	  </div>
+	  <div class="end">
+	  	<p class="endp">MOST POPULAR PROPERTY</p>
+	  	<p class="endp1">SEE THE BELOW MOST POPULAR HOUSE</p>
+	  	
+	  </div>
+	  <div class="last">
+	  		<div class="pic">
+	  			<img class="hous" src="me65.jpg">
+	  			
+	  			<p class="housp">Tree HOUSE</p>
+	  			<p class="housp1">tree house in forest</p>
+
+	  			
+	  		</div>
+	  		<div class="pic1">
+	  			<img class="hous1" src="me66.jpg">
+	  			<p class="housp">Banglow</p>
+	  			<p class="housp1">This banglow in Lahore 3 badroom</p>
+	  		</div>
+	  		<div class="pic2">
+	  			<img class="hous2" src="me67.jpg">
+	  			<p class="housp">MENSHION</p>
+	  			<p class="housp1">This menshin in Lahore its a beautiful </p>
+	  		</div>
+	  		<div class="pic3">
+
+	  			<img class="hous3" src="me68.jpg">
+	  			<p class="housp">HOUSE</p>
+	  			<p class="housp1">Double story house in white</p>
+	  		</div>
+	  	
+
+
+
+
+	  </div>
+
+	</body>
+</html>
